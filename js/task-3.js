@@ -7,6 +7,8 @@ function filterArray(numbers, value) {
   }
   return newArray;
 }
+
+
 console.log(filterArray([1, 2, 3, 4, 5], 3));
 console.log(filterArray([1, 2, 3, 4, 5], 3));
 console.log(filterArray([1, 2, 3, 4, 5], 4));
