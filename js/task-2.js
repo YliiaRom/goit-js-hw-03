@@ -1,14 +1,12 @@
 function makeArray(firstArray, secondArray, maxLength) {
-  // if (firstArray === undefined || secondArray === undefined || maxLength === undefined) {
-  //   return [];
-  // }
-const newArray = firstArray.concat(secondArray);
 
-if (newArray.length > maxLength) {
-const newCopyArray = newArray.slice(0, maxLength);
+const sumArray = firstArray.concat(secondArray);
+
+if (sumArray.length > maxLength) {
+const newCopyArray = sumArray.slice(0, maxLength);
 console.log(newCopyArray);
 } else {
-  return newArray;
+  return sumArray;
 }
 
 }
